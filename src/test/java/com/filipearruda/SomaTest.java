@@ -12,7 +12,7 @@ class SomaTest {
         float expected = 2;
 
         //When
-        float result = Soma.somar(1, 1);
+        float result = Soma.somar(1f, 1f);
 
         //Then
         assertEquals(expected, result);
